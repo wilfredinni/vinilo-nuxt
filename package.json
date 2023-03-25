@@ -18,5 +18,15 @@
     "prettier": "^2.8.7",
     "tailwindcss": "^3.2.7",
     "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "@vueuse/nuxt": "^9.13.0"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "vue"
+      ]
+    }
   }
 }
