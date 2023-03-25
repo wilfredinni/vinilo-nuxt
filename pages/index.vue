@@ -12,12 +12,12 @@ const enabled = ref(false)
 <template>
   <div class="text-center">
     <Icon name="uil:github" />
-    <h1 class="text-blue-500 text-4xl font-bold mb-5">Home</h1>
+    <h1 class="mb-5 text-4xl font-bold text-blue-500">Home</h1>
     <Switch
       v-model="enabled"
       :class="[
         enabled ? 'bg-indigo-600' : 'bg-gray-200',
-        'relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2'
+        's relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2'
       ]"
     >
       <span class="sr-only">Use setting</span>
