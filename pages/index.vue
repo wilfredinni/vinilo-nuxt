@@ -7,6 +7,7 @@ useHead({
 
 <template>
   <div class="text-center">
+    <Icon name="uil:github" />
     <h1 class="text-blue-500 text-4xl font-bold">Home</h1>
   </div>
 </template>
