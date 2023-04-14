@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@headlessui/vue": "^1.7.12",
-    "@vueuse/nuxt": "^9.13.0"
+    "@vueuse/nuxt": "^10.0.0"
   },
   "pnpm": {
     "peerDependencyRules": {
