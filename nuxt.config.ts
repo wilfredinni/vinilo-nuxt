@@ -9,5 +9,9 @@ export default defineNuxtConfig({
     }
   },
 
-  modules: ['@vueuse/nuxt', 'nuxt-icon']
+  modules: ['@vueuse/nuxt', 'nuxt-icon', '@nuxtjs/color-mode'],
+
+  colorMode: {
+    classSuffix: ''
+  }
 })
